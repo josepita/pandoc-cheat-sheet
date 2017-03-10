@@ -1,0 +1,4 @@
+#Chuletilla de Pandoc
+
+**Markdown to Docx**
+>pandoc -s --toc --reference-docx  -o test.docx 017611-023476-Propuesta-desarrollo-web-apoza.mdown 
