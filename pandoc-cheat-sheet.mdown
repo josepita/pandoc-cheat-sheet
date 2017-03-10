@@ -1,4 +1,8 @@
 #Chuletilla de Pandoc
 
-**Markdown to Docx**
->pandoc -s --toc --reference-docx  -o ouput.docx input.mdown 
+##Docx
+###Markdown to Docx básico
+>pandoc -s --toc  -o ouput.docx input.mdown
+
+###Markdown to Docx con plantilla
+>pandoc -S --reference-docx plantilla.dotx -o output.docx input.mdown
